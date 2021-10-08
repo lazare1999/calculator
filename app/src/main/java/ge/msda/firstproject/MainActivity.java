@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             case "/":
                 resultTextView.setText(String.valueOf(operand / secOperand));
                 break;
-//                დავამატე :)
+//                დავამატე :) აქ
             case "pow":
                 resultTextView.setText(String.valueOf(Math.pow(operand, secOperand)));
                 break;
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //                დავამატე :)
+    //                დავამატე :) აქ
     public void clear(View view) {
          resultTextView.setText("");
          operand = 0;
